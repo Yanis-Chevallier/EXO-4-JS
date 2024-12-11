@@ -1,0 +1,21 @@
+console.log(document);
+
+const someDivClass = document.querySelector('.my-div');
+
+const someImg = document.querySelector('.my-img');
+
+const someDivId = document.querySelector('#another-div');
+
+const someH1 = document.querySelector('.my-div h1');
+
+myImg.src = "https://placekitten.com/200/286";
+
+const title = document.querySelector('.title');
+
+title.innerHTML = "Hello, Bob!";
+
+const title = document.getElementById('title');
+
+const heading = document.getElementsByTagName('h1');
+
+const allHeadings = document.querySelectorAll('h1');
